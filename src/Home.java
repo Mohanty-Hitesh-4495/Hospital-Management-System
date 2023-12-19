@@ -12,17 +12,17 @@ public class Home extends JFrame implements ActionListener {
         getContentPane().setBackground(Color.CYAN);
         setLayout(null);
 
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Backgroundimage/apollo-ahmedabad.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Backgroundimage/Aesthetic.jpg"));
         Image i2 = i1.getImage().getScaledInstance(1120, 630, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);
         image.setBounds(0, 0, 1090, 600);
         add(image);
 
-        JLabel heading = new JLabel("Apollo Hospital");
-        heading.setBounds(40, 30, 400, 50);
+        JLabel heading = new JLabel("Gandhi Hospital, Bhubaneswar");
+        heading.setBounds(40, 30, 800, 50);
         heading.setFont(new Font("SAN_SERIF", Font.BOLD, 50));
-        heading.setForeground(Color.RED);
+        heading.setForeground(Color.darkGray);
         image.add(heading);
 
         add = new JButton("New Patient");
