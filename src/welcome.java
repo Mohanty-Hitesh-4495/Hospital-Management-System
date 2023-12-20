@@ -3,7 +3,6 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class welcome extends JFrame implements ActionListener {
-
     public welcome() {
 
         getContentPane().setBackground(Color.WHITE);
