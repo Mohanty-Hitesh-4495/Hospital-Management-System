@@ -3,11 +3,11 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class developer extends JFrame implements ActionListener {
-    JLabel heading, d1, d2, d3, d4, d5;
+    JLabel heading, d1, d2;
     JButton back;
 
     developer() {
-        getContentPane().setBackground(Color.CYAN);
+        getContentPane().setBackground(Color.lightGray);
         setLayout(null);
 
         heading = new JLabel("Developer Details");
@@ -32,9 +32,16 @@ public class developer extends JFrame implements ActionListener {
         back = new JButton("Back");
         back.setBounds(270, 350, 150, 30);
         back.addActionListener(this);
-        back.setBackground(Color.GRAY);
+        back.setBackground(Color.red);
         back.setForeground(Color.BLACK);
         add(back);
+
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Backgroundimage/hitesh.jpg"));
+        Image i2 = i1.getImage().getScaledInstance(250, 200, Image.SCALE_DEFAULT);
+        ImageIcon i3 = new ImageIcon(i2);
+        JLabel image = new JLabel(i3);
+        image.setBounds(170, -50, 689, 565);
+        add(image);
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(700, 500);
