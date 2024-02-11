@@ -70,7 +70,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 **Acknowledgements**
 --------------------
-Special thanks to [Your Name] for inspiration and guidance throughout the development of this project.
+Special thanks to [Mohanty Hitesh] for inspiration and guidance throughout the development of this project.
 
 **Contact**
 -----------
