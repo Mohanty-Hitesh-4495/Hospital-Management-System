@@ -24,7 +24,8 @@ To get started with the Hospital Management System, follow these steps:
 - Java Development Kit (JDK) installed on your system.
 - A compatible IDE such as IntelliJ IDEA, Eclipse, or NetBeans.
 - A relational database management system (RDBMS) like MySQL, PostgreSQL, or Oracle installed and running.
-- JDBC driver for your chosen database.
+- JDBC driver for your chosen database (mysql-connecter-j-8.2.0).
+- jcalender-1.4 (jar file)
 
 **2. Clone the Repository:**  
 ```bash
@@ -38,6 +39,7 @@ To get started with the Hospital Management System, follow these steps:
 **4. Database Setup:**   
 Set up a database in your chosen RDBMS (e.g., MySQL) and ensure it is running.
 Import the provided SQL file (HospitalDatabase.sql) into your database to create the necessary tables and initial data.
+Add the JDBC driver JAR file to your project's build path. If you're using a build tool like Maven or Gradle, include the dependency in your project configuration file
 
 **5. Database Connection Configuration:**    
 Open the Hospital Management System\src\ConnectDB.java file in your preferred text editor.
