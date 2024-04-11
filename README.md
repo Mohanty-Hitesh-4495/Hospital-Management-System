@@ -1,4 +1,4 @@
-# Hospital Management System (JDBC Project)  ![GitHub License](https://img.shields.io/github/license/syedsadiquh/Geocoding-app?https://github.com/Mohanty-Hitesh-4495/Hospital-Management-System/blob/master/LICENSE)
+# Hospital Management System  ![GitHub License](https://img.shields.io/github/license/syedsadiquh/Geocoding-app?https://github.com/Mohanty-Hitesh-4495/Hospital-Management-System/blob/master/LICENSE)
 
 
 Welcome to the Hospital Management System repository! This project is an efficient and user-friendly system built using Java Database Connectivity (JDBC) to manage various operations within a hospital environment.
