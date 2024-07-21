@@ -4,7 +4,6 @@ import java.awt.event.*;
 
 public class welcome extends JFrame implements ActionListener {
     public welcome() {
-
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
 
@@ -20,7 +19,8 @@ public class welcome extends JFrame implements ActionListener {
         h1.setForeground(Color.BLUE);
         add(h1);
 
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Backgroundimage/welcome.jpg"));
+        // Corrected part: using the file path directly
+        ImageIcon i1 = new ImageIcon("./BackgroundImage/welcome.jpg");
         Image i2 = i1.getImage().getScaledInstance(800, 500, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);
@@ -39,21 +39,22 @@ public class welcome extends JFrame implements ActionListener {
         setLocation(150, 70);
         setVisible(true);
 
-        while (true) {
-            heading.setVisible(false);
-            try {
-                Thread.sleep(500);
-            } catch (Exception e) {
-                e.printStackTrace();
+        // Blinking effect for heading
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    while (true) {
+                        heading.setVisible(false);
+                        Thread.sleep(500);
+                        heading.setVisible(true);
+                        Thread.sleep(500);
+                    }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
-
-            heading.setVisible(true);
-            try {
-                Thread.sleep(500);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
+        }).start();
     }
 
     public void actionPerformed(ActionEvent ae) {
@@ -63,5 +64,16 @@ public class welcome extends JFrame implements ActionListener {
 
     public static void main(String args[]) {
         new welcome();
+    }
+}
+
+class Login extends JFrame {
+    public Login() {
+        // Implement your login frame here
+        setTitle("Login");
+        setSize(400, 300);
+        setLocationRelativeTo(null);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setVisible(true);
     }
 }

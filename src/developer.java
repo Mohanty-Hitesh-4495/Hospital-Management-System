@@ -27,7 +27,6 @@ public class developer extends JFrame implements ActionListener {
         d2.setFont(new Font("serif", Font.PLAIN, 20));
         d2.setForeground(Color.BLACK);
         add(d2);
-         
 
         back = new JButton("Back");
         back.setBounds(270, 350, 150, 30);
@@ -36,14 +35,14 @@ public class developer extends JFrame implements ActionListener {
         back.setForeground(Color.BLACK);
         add(back);
 
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("BackgroundImage/hitesh.jpg"));
+        ImageIcon i1 = new ImageIcon("./BackgroundImage/hitesh.jpg");
         Image i2 = i1.getImage().getScaledInstance(250, 200, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);
         image.setBounds(170, -50, 689, 565);
         add(image);
 
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE); // Changed to DISPOSE_ON_CLOSE
         setSize(700, 500);
         setLocation(300, 50);
         setVisible(true);
@@ -55,7 +54,6 @@ public class developer extends JFrame implements ActionListener {
             setVisible(false);
             new Home();
         }
-        throw new UnsupportedOperationException("Unimplemented method 'actionPerformed'");
     }
 
     public static void main(String[] args) {
