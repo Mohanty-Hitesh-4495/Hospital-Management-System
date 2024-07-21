@@ -4,12 +4,13 @@
             "lib/**/*.jar",
             "c:\\Users\\mohan\\OneDrive\\Documents\\jcalendar-1.4.jar",
             "c:\\Users\\mohan\\OneDrive\\Documents\\mysql-connector-j-8.2.0.jar",
-            "jar files/mysql-connector-j-8.2.0.jar",
             "src/jar files/jcalendar-1.4.jar",
             "src/jar files/mysql-connector-j-8.2.0.jar"
         ],
         "exclude": [
-            "jar files/jcalendar-1.4.jar"
+            "jar files/jcalendar-1.4.jar",
+            "Jar Files/jcalendar-1.4.jar"
         ]
-    }
+    },
+    "java.debug.settings.onBuildFailureProceed": true
 }
