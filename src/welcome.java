@@ -67,13 +67,3 @@ public class welcome extends JFrame implements ActionListener {
     }
 }
 
-class Login extends JFrame {
-    public Login() {
-        // Implement your login frame here
-        setTitle("Login");
-        setSize(400, 300);
-        setLocationRelativeTo(null);
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setVisible(true);
-    }
-}

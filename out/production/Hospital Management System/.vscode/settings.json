@@ -1,0 +1,12 @@
+{
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\mohan\\OneDrive\\Documents\\jcalendar-1.4.jar",
+            "c:\\Users\\mohan\\OneDrive\\Documents\\mysql-connector-j-8.2.0.jar"
+        ],
+        "exclude": [
+            "c:\\Users\\mohan\\OneDrive\\Documents\\jcalendar-1.4.jar"
+        ]
+    }
+}
