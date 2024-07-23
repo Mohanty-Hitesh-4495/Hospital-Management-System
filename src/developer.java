@@ -35,7 +35,7 @@ public class developer extends JFrame implements ActionListener {
         back.setForeground(Color.BLACK);
         add(back);
 
-        ImageIcon i1 = new ImageIcon("./BackgroundImage/hitesh.jpg");
+        ImageIcon i1 = new ImageIcon("src\\backgroundimage\\hitesh.jpg");
         Image i2 = i1.getImage().getScaledInstance(250, 200, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);

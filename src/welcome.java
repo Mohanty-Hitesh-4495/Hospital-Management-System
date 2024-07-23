@@ -20,7 +20,7 @@ public class welcome extends JFrame implements ActionListener {
         add(h1);
 
         // Corrected part: using the file path directly
-        ImageIcon i1 = new ImageIcon("./BackgroundImage/welcome.jpg");
+        ImageIcon i1 = new ImageIcon("src\\backgroundimage\\welcome.jpg");
         Image i2 = i1.getImage().getScaledInstance(800, 500, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);
