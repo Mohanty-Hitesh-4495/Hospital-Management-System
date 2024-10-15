@@ -71,10 +71,6 @@ Please ensure that any contributions you make are aligned with the project's goa
 ------------
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-**Acknowledgements**
---------------------
-Special thanks to [Mohanty Hitesh] for inspiration and guidance throughout the development of this project.
-
 **Contact**
 -----------
 If you have any questions, suggestions, or feedback regarding the Hospital Management System, feel free to reach out to the repository owner or open an issue. We appreciate your input!
