@@ -7,11 +7,12 @@ Welcome to the Hospital Management System repository! This project is an efficie
 The Hospital Management System aims to streamline the processes within a hospital by providing a robust platform that facilitates effective management of patient records. This system is designed to be easy to use for hospital staff while ensuring data accuracy and security.
 
 ## Features
-- **Patient Management**: - Efficiently manage patient information,
-                          - Including personal details,
-                          - Medical history,
-                          - Appointments,
-                          - Treatments.
+**Patient Management**: 
+- Efficiently manage patient information
+- Including personal details
+- Medical history
+- Appointments
+- Treatments
 
 ## Technologies Used
 - Java Swing
