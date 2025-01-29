@@ -26,16 +26,15 @@ To get started with the Hospital Management System, follow these steps:
 - A compatible IDE such as IntelliJ IDEA, Eclipse, or NetBeans.
 - A relational database management system (RDBMS) like MySQL, PostgreSQL, or Oracle installed and running.
 - JDBC driver for your chosen database (mysql-connecter-j-8.2.0).
-- jcalender-1.4 (jar file)
+- jcalender-1.4 (jar file for adding calender feat)
 
 **2. Clone the Repository:**  
 ```bash
-    git clone https://github.com/Mohanty-Hitesh-4495/Hospital-Management-System.git
+git clone https://github.com/Mohanty-Hitesh-4495/Hospital-Management-System.git
 ```
 **3. Install Dependencies:**  
 ```bash
-    cd Hospital-Management-System
-    npm install
+cd Hospital-Management-System
 ```
 **4. Database Setup:**   
 Set up a database in your chosen RDBMS (e.g., MySQL) and ensure it is running.
